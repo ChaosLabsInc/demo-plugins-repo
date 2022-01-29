@@ -1,6 +1,6 @@
 import hre from "hardhat";
 
-async function initChainlink() {
+export async function setPriceConfig() {
   const TICKER = "ETH/USD";
   const NETWORK = "Mainnet";
   console.log(`Initializing Chainlink plugin ${TICKER}, ${NETWORK}`);
@@ -13,5 +13,3 @@ async function initChainlink() {
   const nextPrice = await chainlinkConfig.getPrice();
   console.log(`next price is ${nextPrice}`);
 }
-
-initChainlink();
