@@ -19,7 +19,4 @@ export = {
   logYellow: function logYellow(data: string) {
     console.log(chalk.yellow(data));
   },
-  targetKey: function targetKey(pairSelectionParsed: string) {
-    return pairSelectionParsed.split(".")[0];
-  },
 };
