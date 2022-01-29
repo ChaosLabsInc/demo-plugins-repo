@@ -23,7 +23,7 @@ Our command-line tool is written in Typescript. Typescript introduces type safet
 After running the quickstart you should have the following: 2 terminals (each running from the `demo-plugins-repo` root).
 
 - 1 running an alchemy mainnet fork
-- Another running the cli-tool and it should look like this:
+- Another running the cli-tool and it should look something (the important part here is that you have a hardhat mainnet fork up and running) like this:
 
 ![Setup screenshot](https://github.com/ChaosLabsInc/chaos-labs-chainlink/blob/master/img/TerminalSetup.png)
 
@@ -31,10 +31,4 @@ After running the quickstart you should have the following: 2 terminals (each ru
 
 This repo is meant to serve as an example of instantiating Chaos Labs hardhat-plugins and using their functionality. Check out the `scripts` dir for specific exmaples.
 
-Get inspired!
-
-## PR Requests
-
-Before submitting a PR please run the test suite with `npm run test`.
-
-![Test run](https://github.com/ChaosLabsInc/chaos-labs-chainlink/blob/master/img/RunTests.png)
+Get inspired! 🎊 🚀 ✨
