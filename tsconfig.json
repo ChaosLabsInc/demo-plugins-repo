@@ -23,7 +23,8 @@
     }
   },
     "include": [
-        "src/**/*"
+        "src/**/*",
+        "index.ts"
     ],
     "files": ["./hardhat.config.ts"]
 }
