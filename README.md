@@ -24,9 +24,9 @@ Our command-line tool is written in Typescript. Typescript introduces type safet
 After running the quickstart you should have the following: 2 terminals (each running from the `demo-plugins-repo` root).
 
 - 1 running an alchemy mainnet fork
-- Another running the cli-tool and it should look something (the important part here is that you have a hardhat mainnet fork up and running) like this:
+- Another running `npm run start` and it should look something (the important part here is that you have a hardhat mainnet fork up and running) like this:
 
-![Setup screenshot](https://github.com/ChaosLabsInc/chaos-labs-chainlink/blob/master/img/TerminalSetup.png)
+![image](https://user-images.githubusercontent.com/8246234/153304987-19c0ac94-6b6b-4337-a5de-7d2c4e8934e5.png)
 
 ## Recommended Usage
 
