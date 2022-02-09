@@ -6,10 +6,11 @@ For a full deep on Chaos Labs please visit the [Chaos Labs blog](https://chaosla
 
 ## <a name="quickstart"></a> Prerequisites
 
-Our command-line tool is written in Typescript. Typescript introduces type safety for Javascript. Let's install this with the following command.
+We assume you have npm installed, if not go to https://nodejs.org/en/download/ and follow the instructions.
 
+Our command-line tool is written in Typescript. Typescript introduces type safety for Javascript. Let's install this with the following command.
 - `npm i -g ts-node`
-- Confirm `ts-node` installed correctly by running `ts-node` to run typescript (``) in a terminal window.
+- Confirm `ts-node` installed correctly by running `ts-node -- help` and verify the help instructions are printed to your terminal.
 - Alchemy API key for mainnet fork access: [Get one here](https://www.alchemy.com/).
 
 ## <a name="quickstart"></a> QuickStart
@@ -17,15 +18,15 @@ Our command-line tool is written in Typescript. Typescript introduces type safet
 1. `git clone https://github.com/ChaosLabsInc/demo-plugins-repo.git`
 2. `cd demo-plugins-repo`
 3. `npm i` - Installing project libs.
-4. **In a separate terminal window (spawn a new window in iTerm with cmd+D)** run: `npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/<YOUR_ALCHEMY_KEY>` - Bootstrapping a mainnet fork locally.
+4. **In a separate terminal window (spawn a new tab in your terminal, cmd+t on MacOS or ctrl+t on Windows)** run: `npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/<YOUR_ALCHEMY_KEY>` - Bootstrapping a mainnet fork locally.
 5. `npm run start`
 
 After running the quickstart you should have the following: 2 terminals (each running from the `demo-plugins-repo` root).
 
 - 1 running an alchemy mainnet fork
-- Another running the cli-tool and it should look something (the important part here is that you have a hardhat mainnet fork up and running) like this:
+- Another running `npm run start` and it should look something (the important part here is that you have a hardhat mainnet fork up and running) like this:
 
-![Setup screenshot](https://github.com/ChaosLabsInc/chaos-labs-chainlink/blob/master/img/TerminalSetup.png)
+![image](https://user-images.githubusercontent.com/8246234/153304987-19c0ac94-6b6b-4337-a5de-7d2c4e8934e5.png)
 
 ## Recommended Usage
 
