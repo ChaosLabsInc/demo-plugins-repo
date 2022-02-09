@@ -6,8 +6,9 @@ For a full deep on Chaos Labs please visit the [Chaos Labs blog](https://chaosla
 
 ## <a name="quickstart"></a> Prerequisites
 
-Our command-line tool is written in Typescript. Typescript introduces type safety for Javascript. Let's install this with the following command.
+We assume you have npm installed, if not go to https://nodejs.org/en/download/ and follow the instructions.
 
+Our command-line tool is written in Typescript. Typescript introduces type safety for Javascript. Let's install this with the following command.
 - `npm i -g ts-node`
 - Confirm `ts-node` installed correctly by running `ts-node -- help` and verify the help instructions are printed to your terminal.
 - Alchemy API key for mainnet fork access: [Get one here](https://www.alchemy.com/).
