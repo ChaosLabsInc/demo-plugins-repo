@@ -23,7 +23,7 @@
   "dependencies": {
     "@chainlink/contracts": "0.0.11",
     "@chainlink/test-helpers": "0.0.5",
-    "@chaos-labs/chainlink-hardhat-plugin": "^0.0.4",
+    "@chaos-labs/chainlink-hardhat-plugin": "^0.0.5",
     "@openzeppelin/contracts": "^3.2.0",
     "@openzeppelin/test-helpers": "^0.5.9",
     "@types/cli-table": "^0.3.0",
