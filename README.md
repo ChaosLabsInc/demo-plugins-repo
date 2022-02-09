@@ -17,7 +17,7 @@ Our command-line tool is written in Typescript. Typescript introduces type safet
 1. `git clone https://github.com/ChaosLabsInc/demo-plugins-repo.git`
 2. `cd demo-plugins-repo`
 3. `npm i` - Installing project libs.
-4. **In a separate terminal window (spawn a new window in iTerm with cmd+D)** run: `npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/<YOUR_ALCHEMY_KEY>` - Bootstrapping a mainnet fork locally.
+4. **In a separate terminal window (spawn a new tab in your terminal, cmd+t on MacOS or ctrl+t on Windows)** run: `npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/<YOUR_ALCHEMY_KEY>` - Bootstrapping a mainnet fork locally.
 5. `npm run start`
 
 After running the quickstart you should have the following: 2 terminals (each running from the `demo-plugins-repo` root).
